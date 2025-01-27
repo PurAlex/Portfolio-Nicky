@@ -23,7 +23,7 @@ export default function Header() {
     <Disclosure as="nav" className="bg-gray-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-18 items-center justify-between">
-          <a className="text-xl text-white px-2">Nicky Alexander</a>
+          <a className="text-2xl text-white px-2">Nicky Alexander</a>
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
             <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
@@ -52,7 +52,7 @@ export default function Header() {
                       item.current
                         ? "bg-gray-900 text-white"
                         : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "rounded-md px-3 py-2 text-sm font-medium"
+                      "rounded-md px-2 py-2 text-base font-medium"
                     )}
                   >
                     {item.name}
