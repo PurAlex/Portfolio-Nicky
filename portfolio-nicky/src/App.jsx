@@ -1,8 +1,5 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
-import Hero from "./components/Hero";
+import { Header, Hero, Projects, Footer } from "./components";
 import "./styles/index.css";
 
 const App = () => {
