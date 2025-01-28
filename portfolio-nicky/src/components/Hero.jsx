@@ -1,3 +1,5 @@
+import me from "../assets/me2.jpg";
+
 function Hero() {
   return (
     <section
@@ -19,8 +21,8 @@ function Hero() {
       >
         My Projects
       </button>
-      <div>
-        <img src=""></img>
+      <div className="relative flex-1">
+        <img className="rounded-full h-50" src={me} alt="Profile"></img>
       </div>
     </section>
   );
